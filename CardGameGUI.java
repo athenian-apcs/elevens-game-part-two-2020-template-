@@ -266,7 +266,7 @@ public class CardGameGUI extends JFrame implements ActionListener {
 		if (c == null) {
 			return "cards/back1.GIF";
 		}
-		str += c.rank() + c.suit();
+		str += c.getRank() + c.getSuit();
 		if (isSelected) {
 			str += "S";
 		}
